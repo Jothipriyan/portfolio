@@ -1,0 +1,36 @@
+{
+  "name": "jothipriyan-portfolio",
+  "version": "1.0.0",
+  "description": "Modern portfolio website for Jothipriyan Annamalai - AI/ML Software Engineer",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server .",
+    "build": "echo 'No build process needed for static site'"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "html",
+    "css",
+    "javascript",
+    "responsive",
+    "ai",
+    "ml",
+    "software-engineer"
+  ],
+  "author": "Jothipriyan Annamalai <jothipriyan87@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jothipriyan/portfolio.git"
+  },
+  "homepage": "https://jothipriyan.github.io/portfolio",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  }
+}
